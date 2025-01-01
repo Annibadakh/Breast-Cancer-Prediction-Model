@@ -64,21 +64,7 @@ Additional statistical variations and worst-case values are included in the foll
   - `seaborn`
   - `scikit-learn`
 
-## Installation and How to run
+## Installation
 1. Clone this repository:
    ```bash
-   1st clone the project
-      git clone https://github.com/Annibadakh/Breast-Cancer-Prediction-Model.git
-   2nd train model 
-      --pyhton train.py
-   3rd run project
-      --python app.py
-   4th Open http://localhost:5000 in browser and enter input values and click on predict
-      input values example: -0.23717126, -0.64487029, -0.11382239, -0.57427777, -0.60294971,
-        1.0897546 ,  0.91543814,  0.41448279,  0.09311633,  1.78465117,
-        2.11520208,  0.28454765, -0.31910982,  0.2980991 ,  0.01968238,
-       -0.47096352,  0.45757106,  0.28733283, -0.23125455,  0.26417944,
-        0.66325388,  0.12170193,  0.42656325,  0.36885508,  0.02065602,
-        1.39513782,  2.0973271 ,  2.01276347,  0.61938913,  2.9421769
-   5th get output
-
+   git clone https://github.com/Annibadakh/Breast-Cancer-Prediction-Model.git
