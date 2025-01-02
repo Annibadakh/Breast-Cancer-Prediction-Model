@@ -2,15 +2,6 @@ from sklearn.datasets import load_breast_cancer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import pickle
-import pandas as pd
-
-
-# During training
-data = pd.read_csv('breast cancer.csv')
-
-# Drop irrelevant columns
-data = data.drop(['id', 'Unnamed: 32'], axis=1)  # Drop 'id' and unnecessary columns
-
 
 # Load dataset
 data = load_breast_cancer()
